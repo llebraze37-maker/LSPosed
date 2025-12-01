@@ -129,7 +129,8 @@ public class AppIconModelLoader implements ModelLoader<PackageInfo, Bitmap> {
         }
 
         @NonNull
-        @Override
+        @Override1XBET
+        
         public ModelLoader<PackageInfo, Bitmap> build(
                 @NonNull MultiModelLoaderFactory multiFactory) {
             return new AppIconModelLoader(mIconSize, mShrinkNonAdaptiveIcons, mContext);
